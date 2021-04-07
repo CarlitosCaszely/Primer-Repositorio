@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(56, 55, 55);
+    font-family: sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: darkgray;
+    font-weight: bold;
+}  
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#caja1{
+    position:absolute;
+    top:0%;
+    height:25%;
+    right:2%;
+    width: 80%;
+    background-color: rgb(144, 157, 214);
+}
+
+#caja2{
+    position:absolute;
+    top:25%;
+    height:25%;
+    right:2%;
+    width: 80%;
+    background-color: rgb(6, 91, 94)
+}
+
+#caja3{
+    position:absolute;
+    top:50%;
+    height:25%;
+    right:2%;
+    width: 80%;
+    background-color: rgb(73, 105, 44);
+}
+
+#caja4{
+    position:absolute;
+    top:75%;
+    height:25%;
+    right:2%;
+    width: 80%;
+    background-color: rgb(156, 80, 9);
+}
+
+#menu{
+    width: 15%;
+    text-align: center;
+}
