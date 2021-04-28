@@ -1,7 +1,5 @@
 body{
-    background-color: rgb(56, 55, 55);
     font-family: sans-serif;
-    color: white;
 }
 
 a:hover {
@@ -51,6 +49,20 @@ a{
 }
 
 #menu{
-    width: 15%;
+    width: 18%;
+    padding-right: 30px;
+    background-color: #564B4B;
+    position: fixed;
+    height: 100%;
     text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#ulmenu{
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 2.2;
 }
