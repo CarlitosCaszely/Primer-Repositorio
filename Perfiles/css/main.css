@@ -2,112 +2,51 @@
     box-sizing: border-box;
 }
 
+.navbar a {
+    padding-bottom: 30px;
+}
+img {
+    width: 100%;
+}
 body {
     background-image: url("Fondo.jpg");
+    background-size: cover;
     margin: 0;
 }
-#justificado{
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+.dropdown {
+    position: relative;
+}
+.d-flex {
+    display: flex!important;
+}
+.text-justify {
     text-align: justify;
 }
-
-.titulo {
-    font-family: 'Bangers', cursive;
-    color: #19172a;
-}
-
-.centrado{
-    text-align: center;
-}
-.negro {
-    color: #19172a;
-}   
-.blanco {
-    color: white;
-}
-
-#alineado{ 
-    font-size: 1.2rem;
-    margin-right: 50px;
+#menuvertical {
     background-color:#3FB8A7;
-    color:white;
-    font-family: 'Bangers', cursive;
 }
-#flex{
-    display: flex;
-    position: fixed;
-    height: 100%;
-    margin-right: 50px;
-}
-ul {
-    margin: 0;
-    padding: 0;
-  }
-
-#sinpuntos {
-    list-style: none;
-    padding-left: 0px;
-}
-ul a { 
-    width: 200px; 
-}
-  li a {
-    display: block;
-    color: white;
+#menuvertical a{
+    font-size: 1.2rem;
     text-decoration: none;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    padding: 16px 55px;
-}
-    
-  li a:hover {
-    background-color: #B0DEEB;
-    color: #19172a;
-  }
-
-p {
-    font-family: 'Merriweather', serif;
-}
-.integrantes{
-    position: absolute; 
-    bottom: 0; 
-    padding: 16px 35px;
-    font-size: 1rem;
-    font-family: 'Merriweather', serif;
-    font-weight: 500;
-    text-align: left;
-}
-.integrantes-tittle {
-    font-size: 1rem;
+    color: white; 
 
 }
-.animales {
-	width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.centradoimg{
-    display: block;
-    width: 200px;
-    height: 200px;
-}
-.test {
-    margin-right: 50px;
-}
-
-.gato {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.parrafo1 {
-    font-size:1.1rem;
+#menuvertical a:hover{
+    color: #19172A;
+    text-decoration: none;
+    background: #B0DEEB;
 
 }
-
-#justificado h1, h2 {
-    margin-top: 50px;
+.text-primario {
+    color: #19172A!important;
 }
-#alineado ul{
-    margin-top: 50px;
+@media screen and (min-width:767px) {
+    #menuvertical {
+        min-height: calc(100vh - 50px);
+    }
 }
