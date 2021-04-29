@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -12,39 +11,40 @@
 		<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+		<script src="js/bootstrap.bundle.min.js"></script>
 	</head>
 	<body class="negro">
-		<div id="flex">
-			<div id="alineado">
-					<ul id="sinpuntos">
-						<li><a href="index.html"><span>Inicio</span></a></li>
-						<li><a href=""><span>Nosotros</span></a></li>
-						<li><a href=""><span>Perros</span></a></li>
-						<li><a href=""><span>Gatos</span></a></li>
-						<li><a href=""><span>Contacto</span></a></li>
-					</ul>
-					<div class="integrantes">
-						<h2 class="negro integrantes-tittle">Integrantes:</h2>
-						<ul class="blanco">
-							<li>Carlos Muñoz </li>
-							<li>Persona 2 </li>
-							<li>Persona 3 </li>
-							<li>Persona 4</li>
+		<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap shadow">
+			<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#"></a>
+			<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menuvertical" aria-controls="menuvertical" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  </header>
+		  <div class="container-fluid">
+			<div class="row">
+			  <nav id="menuvertical" class="col-md-3 col-xl-2 d-md-block sidebar collapse">
+				<div class="position-sticky pt-3">
+						<ul id="sinpuntos" class="nav flex-column mb-auto">
+							<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Nosotros</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Perros</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Gatos</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Contacto</a></li>
 						</ul>
-					</div>
-			</div>
-			<div>
-				<div id="justificado">
-					<h1 class="centrado titulo tituloONG">ONG - AYUDA A UN PELUDO</h1>
-					<p class="blanco parrafo1">Lorem ipsum dolor sit amet consectetur adipiscing elit gravida eros, venenatis phasellus faucibus parturient rutrum ut volutpat class auctor, luctus pulvinar risus erat praesent tincidunt fusce eleifend. Leo tristique ridiculus tempor augue ullamcorper molestie, nulla torquent scelerisque quam cursus tellus accumsan, potenti dapibus donec blandit at. Sagittis tempor vel feugiat nam mauris class, et rhoncus consequat viverra morbi eros, rutrum lobortis a dictum primis, accumsan libero nisi parturient ante.Lorem ipsum dolor sit amet consectetur adipiscing elit gravida eros, venenatis phasellus faucibus parturient rutrum ut volutpat class auctor, luctus pulvinar risus erat praesent tincidunt fusce eleifend. Leo tristique ridiculus tempor augue ullamcorper molestie, nulla torquent scelerisque quam cursus tellus accumsan, potenti dapibus donec blandit at. Sagittis tempor vel feugiat nam mauris class, et rhoncus consequat viverra morbi eros, rutrum lobortis a dictum primis, accumsan libero nisi parturient ante.</p>
-					<h2 class="centrado tituloh4 titulo">Nuestras secciones de ayuda:</h2>
-				
+			  </nav>
+			  <div class="col-md-9 col-xl-10">
+				<div>
+					<h1 class="display-3 text-center text-primario">ONG - AYUDA A UN PELUDO</h1>
+					<p class="text-justify text-light">Lorem ipsum dolor sit amet consectetur adipiscing elit gravida eros, venenatis phasellus faucibus parturient rutrum ut volutpat class auctor, luctus pulvinar risus erat praesent tincidunt fusce eleifend. Leo tristique ridiculus tempor augue ullamcorper molestie, nulla torquent scelerisque quam cursus tellus accumsan, potenti dapibus donec blandit at. Sagittis tempor vel feugiat nam mauris class, et rhoncus consequat viverra morbi eros, rutrum lobortis a dictum primis, accumsan libero nisi parturient ante.Lorem ipsum dolor sit amet consectetur adipiscing elit gravida eros, venenatis phasellus faucibus parturient rutrum ut volutpat class auctor, luctus pulvinar risus erat praesent tincidunt fusce eleifend. Leo tristique ridiculus tempor augue ullamcorper molestie, nulla torquent scelerisque quam cursus tellus accumsan, potenti dapibus donec blandit at. Sagittis tempor vel feugiat nam mauris class, et rhoncus consequat viverra morbi eros, rutrum lobortis a dictum primis, accumsan libero nisi parturient ante.</p>
+					<h2 class="display-5 text-center text-primario">Nuestras secciones de ayuda:</h2>
+
 				</div>
-				<div class="animales">
-					<a href="PerfilesGatos/GatosEnAdopcion.html"><img class="centradoimg gato" id="justificado"src="../ImagenesIndex/GatoIndex.png"></a>			
-					<a href="PerfilesPerros/PerrosEnAdopcion.html"><img class="centradoimg perro" src="../ImagenesIndex/PerroIndex.png"></a> 	
+				<div class="d-flex justify-content-center">
+					<a href="PerfilesGatos/GatosEnAdopcion.html"><img class="centradoimg gato" id="justificado"src="../ImagenesIndex/GatoIndex.png"></a>
+					<a href="PerfilesPerros/PerrosEnAdopcion.html"><img class="centradoimg perro" src="../ImagenesIndex/PerroIndex.png"></a>
 				</div>
 			</div>
-		</div>
+			</div>
+		  </div>
 	</body>
 <html>
