@@ -29,12 +29,12 @@ body {
 }
 #menuvertical {
     background-color:#3FB8A7;
+    padding:0%;
 }
 #menuvertical a{
     font-size: 1.2rem;
     text-decoration: none;
     color: white; 
-
 }
 #menuvertical a:hover{
     color: #19172A;
