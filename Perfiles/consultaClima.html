@@ -32,50 +32,28 @@
 							<li class="nav-item"><a class="nav-link" href="PerfilesGatos/GatosEnAdopcion.html">Gatos</a></li>
 							<li class="nav-item"><a class="nav-link" href="">Contacto</a></li>
 							<li class="nav-item"><a class="nav-link" href="formulario.html">Formulario</a></li>
-							<li class="nav-item"><a class="nav-link" href="consultaClima.html">Consulta Clima</a></li>
+                            <li class="nav-item"><a class="nav-link" href="consultaClima.html">Consulta Clima</a></li>
 						</ul>
-				</div>
 			  </nav>
-			  <div class="col-md-9 col-xl-10">
-            <div class="row">
-              <form name="formulario">
-                <div class="form-group">
-                  <h1>Formulario</h1>
-                  <label for="nombre">Nombre</label>
-                  <input type="text" class="form-control" required id="nombre" name="nombre" placeholder="Ingrese nombre:">
-                </div>
-
-                <div class="form-group">
-                  <label for="edad">Edad</label>
-                  <input type="number" class="form-control" required id="edad" name="edad" min=18 placeholder="Ingrese edad:">
-                </div>
-
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" class="form-control" required id="email" name="email" placeholder="Ingrese email:">
-                </div>
-
-                <div class="form-group">
-                  <label for="direccion">Direccion</label>
-                  <input type="text" class="form-control" required id="direccion" name="direccion" placeholder="Ingrese direccion:">
-                </div>
-
-                <div class="form-group">
-                  <label for="casilla">Acepta términos y condiciones</label>
-                  <input type="checkbox" class="form-check" required id="casilla" name="casilla" >
-                </div>
-
-                <div>
-                  <!--<button type="button" class="btn btn-primary" onclick="validarEnvio()">Enviar</button>-->
-                  <button type="submit" class="btn btn-primary" >Enviar</button>
-                </div>
-              </form>
-            </div>
-            
-            <div classs="row">
-              <h1>↓Página de Duoc UC↓</h1>
-              <a id="enlaceDuoc" href="http://www.duoc.cl" target="_blank">Ir a Duoc UC</a>
-            </div>
+			  <div class="col-md-6 col-xl-4 col-sm-12 m-auto"><!--mx-auto es para centrar horizontalmente y m-auto lo deja en el centro de todo-->
+				<div>
+					<div class="text-center text-primario">
+						<h1>¿Cómo está el clima?</h1>
+						<form>
+							<div class="form-group">
+								<h5>Consulte su Ciudad:</h5>
+								<input class="labelCiudad form-control w-100 m-auto mb-2" type="text" id="ciudadClima" placeholder="Ingrese Ciudad">
+							</div>
+							<button id="botonClima"type="button" class="btn btn-primary mb-2 w-100" onclick="cargarClima()">Consultar Clima</button>
+						</form>
+						<div id="datosClima" class="bg-white rounded p-3 w-100 m-auto">
+							<p id="datosCiudad">La temperatura en <span class="ubicacion"></span> es de: <span id="temperatura"></span>°C</p>
+							<p id="datosCiudad">La humedad relativa es de un: <span id="humedad"></span>%</p>
+							<p id="datosCiudad">La velocidad del viento es de: <span id="velocidadViento"></span>km/h</p>
+							<p id="datosCiudad">La presión atmosférica es de: <span id="presionAtmosferica"></span>hPa</p>
+						</div>
+					</div>
+				</div>
 			  </div>
 			</div>
 		  </div>
@@ -83,5 +61,7 @@
 		  <script src="js/main.js"></script>
 		  <script src="js/bootstrap.min.js"></script>
 		  <script src="js/bootstrap.bundle.min.js"></script>
+		  <script src="js/scriptClima.js"></script>
+
 	</body>
 <html>
